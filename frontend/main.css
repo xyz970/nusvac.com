@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-items {
+    @apply block mt-4 sm:inline-block sm:mt-0  text-gray-700 hover:text-gray-800  mr-4 no-underline;
+}
+
+.navbar-items-active {
+    @apply block mt-4 sm:inline-block sm:mt-0  text-blue-400 hover:text-blue-500  mr-4 no-underline;
+}
+
+.form-input {
+    @apply block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50;
+}
